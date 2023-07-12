@@ -1,0 +1,552 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+#header #flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0;
+  background-color: #f2a45c;
+  height: 38px;
+}
+#header #flex p.header_paragraph {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 8px;
+}
+#header #flex a.header_tag {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+#header #main_header {
+  background-color: rgba(218, 218, 218, 0.46);
+  height: 64px;
+}
+#header #main_header .logo {
+  padding-top: 15px;
+}
+#header #main_header #n_bar ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#header #main_header #n_bar ul.lists1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 6px;
+  margin-right: 20px;
+}
+
+#banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#banner .back-end {
+  margin-top: 180px;
+}
+#banner .rounded {
+  margin-top: 150px;
+}
+#banner .btn {
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(90deg, #6d63e1 0%, #477bff 51.56%, #5697e0 91.67%);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#banner .main_tittle {
+  position: absolute;
+  width: 468px;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  margin-top: 120px;
+  background: #4a4945;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  color: white;
+}
+
+.bannernav #nav2 {
+  background: #031c43 !important;
+  padding: 20px;
+  align-items: center;
+  border-radius: 20px;
+  height: 80px;
+  top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.bannernav #nav2 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.bannernav #nav2 .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+.bannernav #nav2 .navbar-brand:hover, .bannernav #nav2 .navbar-brand:focus {
+  color: white;
+}
+.bannernav #nav2 .nav-link {
+  font-size: 18px;
+  color: white;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.bannernav #nav2 .nav-link:hover, .bannernav #nav2 .nav-link:focus {
+  color: white;
+}
+.bannernav #nav2 .nav-link.active {
+  font-weight: bold;
+  color: white;
+}
+.bannernav #nav2 .nav-link.active:hover, .bannernav #nav2 .nav-link.active:focus {
+  color: #333;
+}
+
+#text {
+  align-items: center;
+  padding: 60px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+#text h2 {
+  text-align: center;
+  top: 20px;
+}
+
+#cards {
+  width: 100%;
+}
+#cards .card-body {
+  background: #48719b;
+  border-radius: 10px;
+}
+#cards .card-body h5 {
+  color: white;
+}
+#cards .card-body p {
+  color: white;
+  text-align: center;
+}
+
+#text1 {
+  align-items: center;
+  padding: 30px;
+}
+#text1 h2 {
+  text-align: center;
+  top: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+#photoo {
+  margin-top: 50px;
+}
+
+#text2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.orderlist {
+  margin-top: 100px;
+}
+.orderlist li {
+  padding: 10px;
+}
+
+#darkbackground {
+  background: #031c43;
+  margin-top: 100px;
+}
+#darkbackground .boxes {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 363px;
+  height: 337px;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-top: -50px;
+}
+#darkbackground .boxes h6 {
+  color: white;
+}
+#darkbackground .boxes p {
+  color: white;
+}
+
+#text4 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#photoo2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#group {
+  margin-top: 10px;
+}
+#group .h4 {
+  color: black;
+  position: relative;
+  line-height: 22px;
+  color: white;
+  padding-left: 26px;
+  padding-top: 12px;
+}
+#group p {
+  padding-top: 15px;
+  padding-left: 26px;
+  text-align: start;
+  padding-right: 64px;
+  margin-bottom: 100px;
+}
+
+#bbground {
+  background-image: url(../images/bb.png);
+  margin-top: 100px;
+}
+#bbground .titulli {
+  color: white;
+  margin: 50px;
+  margin-bottom: 20px;
+  padding-left: 120px;
+}
+#bbground .boxes2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#text4 h2 {
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+}
+#text4 p {
+  margin-top: 50px;
+}
+
+#borderi {
+  margin-bottom: 50px;
+}
+#borderi .orange {
+  border: 2px solid orange;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+#borderi .orange h5 {
+  padding-top: 15px;
+  font-weight: 100;
+}
+#borderi .orange p {
+  font-weight: bold;
+}
+
+#text5 {
+  background-image: url(../images/bb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#text5 h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 200px;
+}
+#text5 .fatii {
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#text5 .fati {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+#text5 h4 {
+  float: right;
+  padding-right: 350px;
+  color: white;
+  padding-top: 20px;
+  position: relative;
+}
+#text5 h4::after {
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: white;
+  top: 60px;
+  left: 0;
+}
+#text5 p {
+  color: white;
+  padding-left: 250px;
+  margin-top: -100px;
+}
+
+#price {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#price .lightblue {
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  position: relative;
+}
+#price .lightblue .rotated {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  background: #f2a45c;
+  border-radius: 10px;
+  transform: rotate(-15deg);
+  padding: 5px 25px;
+}
+#price .lightblue h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: black;
+}
+#price .lightblue h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 500px;
+  color: darkblue;
+}
+#price .lightblue h4 {
+  background-color: lightblue;
+  color: black;
+  text-align: start;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+}
+#price .lightblue .grupii {
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #6d63e1 0%, #477bff 51.56%, #5697e0 91.67%);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 100px;
+}
+#price .lightblue ul {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+#price .lightblue ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+#price .darkblue {
+  border: 3px solid darkblue;
+  border-radius: 10px;
+  background-color: #031c43;
+  position: relative;
+}
+#price .rotatedright {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  background: #f2a45c;
+  border-radius: 10px;
+  transform: rotate(15deg);
+  padding: 5px 25px;
+}
+#price h2 {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+#price h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 500px;
+  color: lightblue;
+}
+#price h4 {
+  background-color: lightblue;
+  color: black;
+  text-align: start;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+}
+#price .grupiii {
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #6d63e1 0%, #477bff 51.56%, #5697e0 91.67%);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 100px;
+}
+#price ul {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+#price ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#reg {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#reg .butoni {
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  background: linear-gradient(90deg, #6d63e1 0%, #477bff 51.56%, #5697e0 91.67%);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#text8 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#dardaniaid {
+  background-color: #031c43;
+}
+#dardaniaid h1 {
+  color: #82817f;
+  margin-top: 20px;
+}
+#dardaniaid h2 {
+  color: white;
+  margin-top: 10px;
+}
+#dardaniaid p {
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+#dardaniaid .imgb {
+  position: relative;
+}
+#dardaniaid .imgb img {
+  margin-bottom: 10px;
+}
+#dardaniaid .imgb h3 {
+  position: absolute;
+  margin-bottom: 20px;
+  background: white;
+  padding: 15px 20px;
+  text-align: center;
+  width: 40%;
+  margin-top: -160px;
+  margin-left: 50px;
+}
+#dardaniaid .butonid {
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #6d63e1 0%, #477bff 51.56%, #5697e0 91.67%);
+}
+
+#forms {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#forms form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 50px;
+  border: #477bff;
+  margin-top: 20px;
+}
+#forms label {
+  font-weight: bold;
+}
+#forms input {
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+#forms select {
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+#forms .paragrafi {
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+#forms .buton9 {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
